@@ -285,9 +285,13 @@ serper_scholar({
 
 ## Configuration
 
-### 环境变量配置
+### 桌面端配置（推荐）
 
-编辑 `~/.openclaw/gateway.env`：
+在「工具 → Web 搜索」中选择 Serper 供应商并填写 API Key，scholar 工具会自动共享该密钥。
+
+### 环境变量配置（备选）
+
+编辑 `~/.openclaw/.env`：
 
 ```bash
 SERPER_API_KEY=your-api-key-here
@@ -301,12 +305,12 @@ SERPER_API_KEY=your-api-key-here
 
 ## Related Tools
 
-- **serper_search：** 普通网页搜索
+- **web_search：** 内置网页搜索（可选 Serper 作为供应商）
 - **web_fetch：** 获取单个网页的详细内容
 
 ## Tips
 
-- **混合使用：** 先用 serper_search 了解概念，再用 serper_scholar 深入研究
+- **混合使用：** web_search 快速搜索，serper_scholar 深入学术研究
 - **引用优先：** 优先阅读高引用论文（通常是领域经典）
 - **关注年份：** 平衡经典文献和最新研究
 - **追踪作者：** 找到重要作者后，搜索其全部作品

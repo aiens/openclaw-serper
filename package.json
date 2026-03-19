@@ -1,20 +1,19 @@
 {
   "name": "serper",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "type": "module",
-  "description": "Serper search plugin for OpenClaw",
+  "description": "Serper Scholar search plugin for OpenClaw (academic papers only)",
   "keywords": [
     "openclaw",
     "serper",
-    "search",
-    "web-search",
-    "scholar"
+    "scholar",
+    "academic-search"
   ],
-  "author": "xiaoxia",
+  "author": "aiens",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/fanzhidongyzby/openclaw-serper.git"
+    "url": "https://github.com/aiens/openclaw-serper.git"
   },
   "engines": {
     "node": ">=18.0.0"
